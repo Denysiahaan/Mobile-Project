@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Read QR Codes</string>
+    <string name="splash_subtitle">مسح رموز QR فوراً</string>
+    <string name="powered_by">بدعم من ZXING</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="menu_language">اللغة</string>
+    <string name="label_current_language">العربية</string>
+    <string name="menu_about">حول التطبيق</string>
+    <string name="language_title">اختر اللغة</string>
+    <string name="btn_save_changes">حفظ التغييرات</string>
+    <string name="about_title">حول التطبيق</string>
+    <string name="about_dev_header">حول المطور</string>
+    <string name="about_course_header">معلومات الدورة</string>
+    <string name="about_app_header">معلومات التطبيق</string>
+    <string name="dev_name">Deny Jeremia Siahaan</string>
+    <string name="dev_role">طالب علوم حاسب</string>
+    <string name="course_name">Mobile Programming 2</string>
+    <string name="course_lecturer">Asep Arwan Sulaeman, S.T., M.Kom.</string>
+    <string name="app_version">الإصدار 1.0.0</string>
+    <string name="scan_instruction">ضع رمز QR داخل الإطار</string>
+    <string name="msg_language_updated">تم تحديث اللغة إلى: %1$s</string>
+    <string name="home_title">Read QR Codes</string>
+    <string name="home_subtitle">مسح وفك رموز QR بسرعة</string>
+    <string name="home_desc">استخدم الكاميرا لمسح وقراءة\nرموز QR.</string>
+    <string name="btn_scan_qr">مسح رمز QR</string>
+    <string name="btn_gallery">المعرض</string>
+    <string name="btn_flashlight">المصباح</string>
+    <string name="scan_result_title">نتيجة المسح</string>
+    <string name="btn_copy">نسخ</string>
+    <string name="btn_share">مشاركة</string>
+    <string name="btn_open_link">فتح الرابط</string>
+    <string name="btn_scan_again">مسح مرة أخرى</string>
+</resources>

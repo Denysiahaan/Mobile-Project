@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFF">
+
+    <!-- Header -->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:paddingHorizontal="16dp">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_arrow_back"
+            app:tint="#0047AB" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@id/btn_back"
+            android:fontFamily="@font/hanken_grotesk"
+            android:text="@string/title_language"
+            android:textColor="#1A1A1A"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_save_container"
+        android:layout_below="@id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Language Items -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="0dp"
+                app:strokeColor="#E2E8F0"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- English -->
+                    <RelativeLayout
+                        android:id="@+id/item_english"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:paddingHorizontal="16dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/hanken_grotesk"
+                            android:text="@string/lang_english"
+                            android:textColor="#1A1A1A"
+                            android:textSize="16sp" />
+                        <ImageView
+                            android:id="@+id/iv_english_check"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_verified"
+                            app:tint="#0047AB"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#F1F5F9" />
+
+                    <!-- Indonesian -->
+                    <RelativeLayout
+                        android:id="@+id/item_indonesian"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:paddingHorizontal="16dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/hanken_grotesk"
+                            android:text="@string/lang_indonesian"
+                            android:textColor="#1A1A1A"
+                            android:textSize="16sp" />
+                        <ImageView
+                            android:id="@+id/iv_indonesian_check"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_verified"
+                            app:tint="#0047AB"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#F1F5F9" />
+
+                    <!-- Arabic -->
+                    <RelativeLayout
+                        android:id="@+id/item_arabic"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:paddingHorizontal="16dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/hanken_grotesk"
+                            android:text="@string/lang_arabic"
+                            android:textColor="#1A1A1A"
+                            android:textSize="16sp" />
+                        <ImageView
+                            android:id="@+id/iv_arabic_check"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_verified"
+                            app:tint="#0047AB"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#F1F5F9" />
+
+                    <!-- Chinese -->
+                    <RelativeLayout
+                        android:id="@+id/item_chinese"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:paddingHorizontal="16dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/hanken_grotesk"
+                            android:text="@string/lang_chinese"
+                            android:textColor="#1A1A1A"
+                            android:textSize="16sp" />
+                        <ImageView
+                            android:id="@+id/iv_chinese_check"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_verified"
+                            app:tint="#0047AB"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#F1F5F9" />
+
+                    <!-- Japanese -->
+                    <RelativeLayout
+                        android:id="@+id/item_japanese"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:paddingHorizontal="16dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/hanken_grotesk"
+                            android:text="@string/lang_japanese"
+                            android:textColor="#1A1A1A"
+                            android:textSize="16sp" />
+                        <ImageView
+                            android:id="@+id/iv_japanese_check"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_verified"
+                            app:tint="#0047AB"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#F1F5F9" />
+
+                    <!-- Korean -->
+                    <RelativeLayout
+                        android:id="@+id/item_korean"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:paddingHorizontal="16dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/hanken_grotesk"
+                            android:text="@string/lang_korean"
+                            android:textColor="#1A1A1A"
+                            android:textSize="16sp" />
+                        <ImageView
+                            android:id="@+id/iv_korean_check"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_verified"
+                            app:tint="#0047AB"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#F1F5F9" />
+
+                    <!-- French -->
+                    <RelativeLayout
+                        android:id="@+id/item_french"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:paddingHorizontal="16dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/hanken_grotesk"
+                            android:text="@string/lang_french"
+                            android:textColor="#1A1A1A"
+                            android:textSize="16sp" />
+                        <ImageView
+                            android:id="@+id/iv_french_check"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_verified"
+                            app:tint="#0047AB"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#F1F5F9" />
+
+                    <!-- German -->
+                    <RelativeLayout
+                        android:id="@+id/item_german"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:paddingHorizontal="16dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/hanken_grotesk"
+                            android:text="@string/lang_german"
+                            android:textColor="#1A1A1A"
+                            android:textSize="16sp" />
+                        <ImageView
+                            android:id="@+id/iv_german_check"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_verified"
+                            app:tint="#0047AB"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#F1F5F9" />
+
+                    <!-- Spanish -->
+                    <RelativeLayout
+                        android:id="@+id/item_spanish"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:paddingHorizontal="16dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/hanken_grotesk"
+                            android:text="@string/lang_spanish"
+                            android:textColor="#1A1A1A"
+                            android:textSize="16sp" />
+                        <ImageView
+                            android:id="@+id/iv_spanish_check"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_verified"
+                            app:tint="#0047AB"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Save Button Container -->
+    <LinearLayout
+        android:id="@+id/btn_save_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:padding="20dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:fontFamily="@font/hanken_grotesk"
+            android:text="@string/save_changes"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="#0047AB"
+            app:cornerRadius="12dp" />
+    </LinearLayout>
+
+</RelativeLayout>

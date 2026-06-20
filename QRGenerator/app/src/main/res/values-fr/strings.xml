@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Générateur QR</string>
+    <string name="settings">Paramètres</string>
+    <string name="save_changes">Enregistrer les modifications</string>
+    <string name="language_updated">Langue mise à jour avec succès</string>
+    <string name="deleted">Supprimé</string>
+    <string name="share_title">Partager le contenu QR</string>
+    <string name="close">Fermer</string>
+    <string name="current_language_name">Français</string>
+
+    <!-- Navigation -->
+    <string name="nav_generate">Générer</string>
+    <string name="nav_saved">Enregistré</string>
+    <string name="nav_settings">Paramètres</string>
+
+    <!-- Language Screen -->
+    <string name="title_language">Langue</string>
+    <string name="pref_language">Préférence</string>
+    <string name="desc_language">Choisissez la langue de votre application.</string>
+    <string name="lang_english">Anglais (US)</string>
+    <string name="lang_indonesian">Indonésien</string>
+    <string name="lang_arabic">Arabe</string>
+    <string name="lang_chinese">Chinois</string>
+    <string name="lang_japanese">Japonais</string>
+    <string name="lang_korean">Coréen</string>
+    <string name="lang_french">Français</string>
+    <string name="lang_german">Allemand</string>
+    <string name="lang_spanish">Espagnol</string>
+
+    <!-- Home Screen -->
+    <string name="slogan">Créez des codes QR instantanément</string>
+    <string name="type_url">URL</string>
+    <string name="type_text">Texte</string>
+    <string name="type_email">E-mail</string>
+    <string name="type_phone">Téléphone</string>
+    <string name="hint_input">Entrez le texte ou l\'URL</string>
+    <string name="btn_generate">Générer le code QR</string>
+    <string name="preview_ready">Aperçu prêt</string>
+    <string name="preview_desc">Entrez les détails pour voir le code QR</string>
+    <string name="error_empty">Le champ ne peut pas être vide</string>
+    <string name="qr_generated">Code QR généré</string>
+    <string name="qr_saved">Code QR enregistré</string>
+    <string name="error_generating">Erreur lors de la génération du code QR</string>
+    <string name="hint_enter">Entrez %1$s ici</string>
+
+    <!-- Saved Screen -->
+    <string name="title_saved">Codes QR enregistrés</string>
+    <string name="no_saved_qr">Aucun code QR enregistré trouvé</string>
+    <string name="created_at">Créé le %1$s • %2$s</string>
+    <string name="error_display_qr">Erreur lors de l\'affichage du QR</string>
+
+    <!-- About Screen -->
+    <string name="about_app">À propos de l\'application</string>
+    <string name="version_info">Version 1.0.0</string>
+    <string name="about_developer">À PROPOS DU DÉVELOPPEUR</string>
+    <string name="course_info">INFOS SUR LE COURS</string>
+    <string name="app_info">INFOS SUR L\'APP</string>
+    <string name="dev_name">Deny Jeremia Siahaan</string>
+    <string name="dev_status">Étudiant en informatique</string>
+    <string name="course_name">Programmation mobile 2</string>
+    <string name="course_lecturer">Asep Arwan Sulaeman, S.T., M.Kom.</string>
+    <string name="title_description">Description</string>
+    <string name="desc_app">Application de génération de codes QR construite avec Java, XML, SQLite et ZXing. Cette application permet aux utilisateurs de créer instantanément des codes QR personnalisés pour les URL, le texte, les e-mails et les numéros de téléphone.</string>
+</resources>

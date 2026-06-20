@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">QR Generator</string>
+
+    <!-- General -->
+    <string name="save_changes">Save Changes</string>
+    <string name="language_updated">Language updated successfully</string>
+    <string name="settings">Settings</string>
+    <string name="deleted">Deleted</string>
+    <string name="share_title">Share QR Content</string>
+    <string name="close">Close</string>
+    <string name="current_language_name">English (US)</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="new_qr">New</string>
+    <string name="image_selected">Image Selected</string>
+
+    <!-- Language Screen -->
+    <string name="title_language">Language</string>
+    <string name="pref_language">Preference</string>
+    <string name="desc_language">Choose your preferred language for the app.</string>
+    <string name="lang_english">English (US)</string>
+    <string name="lang_indonesian">Indonesian</string>
+    <string name="lang_arabic">Arabic</string>
+    <string name="lang_chinese">Chinese</string>
+    <string name="lang_japanese">Japanese</string>
+    <string name="lang_korean">Korean</string>
+    <string name="lang_french">French</string>
+    <string name="lang_german">German</string>
+    <string name="lang_spanish">Spanish</string>
+
+    <!-- Settings Screen -->
+    <string name="about_developer">ABOUT DEVELOPER</string>
+    <string name="course_info">COURSE INFO</string>
+    <string name="app_info">APP INFO</string>
+    <string name="dev_name">Deny Jeremia Siahaan</string>
+    <string name="dev_status">Informatics Engineering</string>
+    <string name="course_name">Mobile Programming 2</string>
+    <string name="course_lecturer">Asep Arwan Sulaeman, S.T., M.Kom.</string>
+    <string name="about_app">About Application</string>
+    <string name="version_info">Version 1.0.0</string>
+
+    <!-- Home Fragment -->
+    <string name="slogan">Create QR Codes instantly</string>
+    <string name="type_url">URL</string>
+    <string name="type_text">Text</string>
+    <string name="type_email">Email</string>
+    <string name="type_phone">Phone</string>
+    <string name="type_image">Image</string>
+    <string name="hint_input">Enter text or URL</string>
+    <string name="btn_generate">Generate QR Code</string>
+    <string name="btn_pick_image">Pick Image from Gallery</string>
+    <string name="preview_ready">Preview Ready</string>
+    <string name="preview_desc">Enter details to see QR code</string>
+    <string name="error_empty">Input cannot be empty</string>
+    <string name="qr_generated">QR Code Generated</string>
+    <string name="qr_saved">QR Code Saved</string>
+    <string name="error_generating">Error generating QR Code</string>
+    <string name="hint_enter">Enter %1$s here</string>
+    <string name="error_image_not_selected">Please select an image first</string>
+    <string name="error_no_qr_found">No QR Code found in the selected image</string>
+    <string name="error_loading_image">Error loading image</string>
+
+    <!-- Saved Fragment -->
+    <string name="title_saved">Saved QR Codes</string>
+    <string name="no_saved_qr">No saved QR codes found</string>
+    <string name="created_at">Created %1$s • %2$s</string>
+    <string name="error_display_qr">Error displaying QR</string>
+
+    <!-- About Activity -->
+    <string name="title_about">About Application</string>
+    <string name="title_description">Description</string>
+    <string name="desc_app">QR Generator Application built using Java, XML, SQLite, and ZXing. This app allows users to create custom QR codes instantly for URLs, Text, Email, and Phone Numbers.</string>
+
+    <!-- Bottom Nav -->
+    <string name="nav_generate">Generate</string>
+    <string name="nav_saved">Saved</string>
+    <string name="nav_settings">Settings</string>
+</resources>

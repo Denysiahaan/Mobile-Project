@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">QR 생성기</string>
+    <string name="settings">설정</string>
+    <string name="save_changes">변경 사항 저장</string>
+    <string name="language_updated">언어가 성공적으로 업데이트되었습니다</string>
+    <string name="deleted">삭제됨</string>
+    <string name="share_title">QR 콘텐츠 공유</string>
+    <string name="close">닫기</string>
+    <string name="current_language_name">한국어</string>
+
+    <!-- Navigation -->
+    <string name="nav_generate">생성</string>
+    <string name="nav_saved">저장됨</string>
+    <string name="nav_settings">설정</string>
+
+    <!-- Language Screen -->
+    <string name="title_language">언어</string>
+    <string name="pref_language">선호도</string>
+    <string name="desc_language">앱에서 사용할 언어를 선택하세요.</string>
+    <string name="lang_english">영어 (US)</string>
+    <string name="lang_indonesian">인도네시아어</string>
+    <string name="lang_arabic">아랍어</string>
+    <string name="lang_chinese">중국어</string>
+    <string name="lang_japanese">일본어</string>
+    <string name="lang_korean">한국어</string>
+    <string name="lang_french">프랑스어</string>
+    <string name="lang_german">독일어</string>
+    <string name="lang_spanish">스페인어</string>
+
+    <!-- Home Screen -->
+    <string name="slogan">QR 코드를 즉시 생성하세요</string>
+    <string name="type_url">URL</string>
+    <string name="type_text">텍스트</string>
+    <string name="type_email">이메일</string>
+    <string name="type_phone">전화번호</string>
+    <string name="hint_input">텍스트 또는 URL 입력</string>
+    <string name="btn_generate">QR 코드 생성</string>
+    <string name="preview_ready">미리보기 준비됨</string>
+    <string name="preview_desc">상세 정보를 입력하여 QR 코드를 확인하세요</string>
+    <string name="error_empty">입력란은 비워둘 수 없습니다</string>
+    <string name="qr_generated">QR 코드가 생성되었습니다</string>
+    <string name="qr_saved">QR 코드가 저장되었습니다</string>
+    <string name="error_generating">QR 코드 생성 중 오류가 발생했습니다</string>
+    <string name="hint_enter">여기에 %1$s를 입력하세요</string>
+
+    <!-- Saved Screen -->
+    <string name="title_saved">저장된 QR 코드</string>
+    <string name="no_saved_qr">저장된 QR 코드가 없습니다</string>
+    <string name="created_at">생성일: %1$s • %2$s</string>
+    <string name="error_display_qr">QR 표시 중 오류 발생</string>
+
+    <!-- Settings & About -->
+    <string name="about_app">앱 정보</string>
+    <string name="version_info">버전 1.0.0</string>
+    <string name="about_developer">개발자 정보</string>
+    <string name="course_info">강의 정보</string>
+    <string name="app_info">앱 정보</string>
+    <string name="dev_name">Deny Jeremia Siahaan</string>
+    <string name="dev_status">컴퓨터 공학 전공 학생</string>
+    <string name="course_name">모바일 프로그래밍 2</string>
+    <string name="course_lecturer">Asep Arwan Sulaeman, S.T., M.Kom.</string>
+    <string name="title_description">설명</string>
+    <string name="desc_app">Java, XML, SQLite 및 ZXing을 사용하여 구축된 QR 생성기 애플리케이션입니다. 이 앱을 통해 사용자는 URL, 텍스트, 이메일 및 전화번호에 대한 사용자 지정 QR 코드를 즉시 생성할 수 있습니다.</string>
+</resources>

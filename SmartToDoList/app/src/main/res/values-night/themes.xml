@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema Aplikasi (Mode Gelap) -->
+    <style name="Theme.SmartToDoList" parent="Base.Theme.SmartToDoList">
+        <!-- Ikon status bar & nav bar jadi PUTIH karena background GELAP -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+
+        <!-- Pastikan background benar-benar hitam/gelap -->
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">QR Generator</string>
+    <string name="settings">Pengaturan</string>
+    <string name="save_changes">Simpan Perubahan</string>
+    <string name="language_updated">Bahasa berhasil diperbarui</string>
+    <string name="deleted">Dihapus</string>
+    <string name="share_title">Bagikan Konten QR</string>
+    <string name="close">Tutup</string>
+    <string name="current_language_name">Bahasa Indonesia</string>
+
+    <!-- Navigation -->
+    <string name="nav_generate">Buat</string>
+    <string name="nav_saved">Tersimpan</string>
+    <string name="nav_settings">Pengaturan</string>
+
+    <!-- Language Screen -->
+    <string name="title_language">Bahasa</string>
+    <string name="pref_language">Preferensi</string>
+    <string name="desc_language">Pilih bahasa yang Anda inginkan untuk aplikasi.</string>
+    <string name="lang_english">Inggris (US)</string>
+    <string name="lang_indonesian">Bahasa Indonesia</string>
+    <string name="lang_arabic">Arab</string>
+    <string name="lang_chinese">Mandarin</string>
+    <string name="lang_japanese">Jepang</string>
+    <string name="lang_korean">Korea</string>
+    <string name="lang_french">Prancis</string>
+    <string name="lang_german">Jerman</string>
+    <string name="lang_spanish">Spanyol</string>
+
+    <!-- Home Fragment -->
+    <string name="slogan">Buat Kode QR secara instan</string>
+    <string name="type_url">URL</string>
+    <string name="type_text">Teks</string>
+    <string name="type_email">Email</string>
+    <string name="type_phone">Telepon</string>
+    <string name="hint_input">Masukkan teks atau URL</string>
+    <string name="btn_generate">Buat Kode QR</string>
+    <string name="preview_ready">Pratinjau Siap</string>
+    <string name="preview_desc">Masukkan detail untuk melihat kode QR</string>
+    <string name="error_empty">Input tidak boleh kosong</string>
+    <string name="qr_generated">Kode QR Berhasil Dibuat</string>
+    <string name="qr_saved">Kode QR Disimpan</string>
+    <string name="error_generating">Gagal membuat kode QR</string>
+    <string name="hint_enter">Masukkan %1$s di sini</string>
+
+    <!-- Saved Fragment -->
+    <string name="title_saved">Kode QR Tersimpan</string>
+    <string name="no_saved_qr">Tidak ada kode QR yang ditemukan</string>
+    <string name="created_at">Dibuat %1$s • %2$s</string>
+    <string name="error_display_qr">Gagal menampilkan QR</string>
+
+    <!-- About Activity -->
+    <string name="title_about">Tentang Aplikasi</string>
+    <string name="title_description">Deskripsi</string>
+    <string name="desc_app">Aplikasi QR Generator yang dibangun menggunakan Java, XML, SQLite, dan ZXing. Aplikasi ini memungkinkan pengguna untuk membuat kode QR khusus secara instan untuk URL, Teks, Email, dan Nomor Telepon.</string>
+</resources>

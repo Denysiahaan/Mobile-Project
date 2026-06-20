@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Smart To Do List</string>
+    <string name="add_task">Tambah Tugas</string>
+    <string name="edit_task">Edit Tugas</string>
+    <string name="delete_task">Hapus Tugas</string>
+    <string name="title_hint">Masukkan tugas…</string>
+    <string name="priority">Prioritas</string>
+    <string name="penting">Penting</string>
+    <string name="sedang">Sedang</string>
+    <string name="ringan">Ringan</string>
+    <string name="cancel">BATAL</string>
+    <string name="save">SIMPAN</string>
+    <string name="update">UPDATE</string>
+    <string name="delete_confirm">Yakin ingin menghapus tugas ini? Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="delete">HAPUS</string>
+    <string name="empty_tasks">Belum ada tugas.</string>
+    <string name="success_save">Tugas berhasil disimpan!</string>
+    <string name="success_update">Tugas berhasil diperbarui!</string>
+    <string name="success_delete">Tugas berhasil dihapus!</string>
+    <string name="invalid_input">Judul tidak boleh kosong!</string>
+
+    <string name="tab_tasks">Tugas</string>
+    <string name="tab_stats">Statistik</string>
+    <string name="tab_settings">Pengaturan</string>
+
+    <string name="all_tasks">Semua</string>
+    <string name="done_tasks">Selesai</string>
+    <string name="pending_tasks">Belum</string>
+
+    <string name="deadline">Deadline</string>
+    <string name="created_at">Dibuat: %1$s</string>
+    <string name="deadline_at">Deadline: %1$s</string>
+    <string name="status_done">Selesai</string>
+    <string name="status_pending">Belum Selesai</string>
+    <string name="status_today">Deadline Hari Ini</string>
+    <string name="status_overdue">Terlambat</string>
+    <string name="status_days_left">%1$d Hari Lagi</string>
+
+    <string name="theme_setting">Tema Aplikasi</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="theme_system">Follow System</string>
+    <string name="about_app">Tentang Aplikasi</string>
+    <string name="app_version">Versi 1.0</string>
+    <string name="developer_name">Dikembangkan oleh: Deny Jeremia Siahaan</string>
+    <string name="app_description">Smart To Do List adalah aplikasi produktivitas modern yang dirancang untuk membantu pengguna mengatur aktivitas harian, memantau deadline tugas, dan meningkatkan efisiensi dalam menyelesaikan pekerjaan sehari-hari.\n\nDengan tampilan yang clean dan modern, aplikasi ini membantu pengguna tetap fokus, terorganisir, dan produktif setiap saat.</string>
+    <string name="task_title_label">Judul Tugas</string>
+    <string name="set_deadline">Atur Deadline</string>
+
+    <!-- Splash Screen Strings -->
+    <string name="splash_subtitle">Organize Your Productivity</string>
+
+    <!-- Modern UI Strings -->
+    <string name="greeting_welcome">Selamat Datang,</string>
+    <string name="search_hint">Cari tugas Anda...</string>
+    <string name="today_tasks_label">Tugas Hari Ini</string>
+    <string name="empty_subtitle">Mulai harimu dengan produktif!</string>
+</resources>

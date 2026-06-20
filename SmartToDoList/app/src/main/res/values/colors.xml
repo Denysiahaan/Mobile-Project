@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="pure_white">#FFFFFF</color>
+    <color name="pure_black">#000000</color>
+
+    <!-- Core Theme (Light) -->
+    <color name="primary">#6750A4</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="primaryContainer">#EADDFF</color>
+    <color name="onPrimaryContainer">#21005D</color>
+
+    <!-- Menambahkan secondary untuk memperbaiki build error -->
+    <color name="secondary">#625B71</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="secondaryContainer">#E8DEF8</color>
+    <color name="onSecondaryContainer">#1D192B</color>
+
+    <color name="background">#FDFBFF</color>
+    <color name="onBackground">#1C1B1F</color>
+    <color name="surface">#FDFBFF</color>
+    <color name="onSurface">#1C1B1F</color>
+    <color name="onSurfaceVariant">#49454F</color>
+    <color name="outline">#79747E</color>
+
+    <!-- Semantic Colors (Auto-switch) -->
+    <color name="white">#FFFFFF</color> <!-- Latar kartu di mode terang -->
+    <color name="text_dark">#1C1B1F</color> <!-- Teks utama -->
+    <color name="text_gray">#49454F</color> <!-- Teks sekunder -->
+
+    <!-- Stats Card Backgrounds -->
+    <color name="bg_stats_all">#EADDFF</color>
+    <color name="bg_stats_done">#E8F5E9</color>
+    <color name="bg_stats_pending">#FFEBEE</color>
+
+    <!-- Priority Colors -->
+    <color name="priority_high">#B3261E</color>
+    <color name="priority_medium">#E2A100</color>
+    <color name="priority_low">#388E3C</color>
+
+    <!-- Header Gradients -->
+    <color name="grad_all_start">#6750A4</color>
+    <color name="grad_all_end">#9575CD</color>
+
+    <!-- Splash Gradient Colors -->
+    <color name="splash_gradient_start">#6750A4</color>
+    <color name="splash_gradient_end">#9575CD</color>
+
+    <!-- Status Colors -->
+    <color name="status_done">#2E7D32</color>
+
+    <!-- Legacy Compatibility -->
+    <color name="priority_penting">#B3261E</color>
+    <color name="priority_sedang">#E2A100</color>
+    <color name="priority_ringan">#388E3C</color>
+    <color name="success">#2E7D32</color>
+    <color name="error">#B3261E</color>
+    <color name="warning">#ED6C02</color>
+</resources>

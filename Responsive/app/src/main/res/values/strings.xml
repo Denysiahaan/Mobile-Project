@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Responsive</string>
+    <string name="title_explore">Explore the World</string>
+    <string name="subtitle_explore">Discover hidden gems around you</string>
+    <string name="btn_get_started">Get Started</string>
+    <string name="title_destinations">Top Destinations</string>
+    <string name="subtitle_destinations">Find your next adventure</string>
+    <string name="btn_explore_now">Explore Now</string>
+</resources>

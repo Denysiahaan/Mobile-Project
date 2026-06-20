@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Read QR Codes</string>
+    <string name="splash_subtitle">Pindai Kode QR Secara Instan</string>
+    <string name="powered_by">DIDUKUNG OLEH ZXING</string>
+
+    <string name="home_title">Read QR Codes</string>
+    <string name="home_subtitle">Pindai dan dekode Kode QR dengan cepat</string>
+    <string name="home_desc">Gunakan kamera Anda untuk memindai dan membaca\nKode QR.</string>
+    <string name="btn_scan_qr">Pindai Kode QR</string>
+    <string name="btn_gallery">Galeri</string>
+    <string name="btn_flashlight">Senter</string>
+
+    <string name="nav_home">Beranda</string>
+    <string name="nav_settings">Pengaturan</string>
+
+    <string name="scan_title">Pindai Kode QR</string>
+    <string name="scan_instruction">Posisikan Kode QR di dalam bingkai</string>
+    <string name="scan_sub_instruction">Pemindaian akan dimulai secara otomatis</string>
+    <string name="btn_import">Impor</string>
+    <string name="btn_input">Input</string>
+
+    <string name="settings_title">Pengaturan</string>
+    <string name="menu_language">Bahasa</string>
+    <string name="label_current_language">Bahasa Indonesia</string>
+    <string name="menu_about">Tentang Aplikasi</string>
+
+    <string name="language_title">Pilih Bahasa</string>
+    <string name="btn_save_changes">Simpan Perubahan</string>
+
+    <!-- Languages -->
+    <string name="lang_en_title">Inggris (United States)</string>
+    <string name="lang_en_sub">English (United States)</string>
+    <string name="lang_id_title">Indonesia</string>
+    <string name="lang_id_sub">Bahasa Indonesia</string>
+    <string name="lang_ar_title">Arab</string>
+    <string name="lang_ar_sub">العربية</string>
+    <string name="lang_zh_title">Tionghoa</string>
+    <string name="lang_zh_sub">中文</string>
+    <string name="lang_es_title">Spanyol</string>
+    <string name="lang_es_sub">Español</string>
+    <string name="lang_fr_title">Prancis</string>
+    <string name="lang_fr_sub">Français</string>
+    <string name="lang_de_title">Jerman</string>
+    <string name="lang_de_sub">Deutsch</string>
+    <string name="lang_ja_title">Jepang</string>
+    <string name="lang_ja_sub">日本語</string>
+    <string name="lang_ko_title">Korea</string>
+    <string name="lang_ko_sub">한국어</string>
+
+    <string name="about_title">Tentang Aplikasi</string>
+    <string name="about_dev_header">TENTANG PENGEMBANG</string>
+    <string name="about_course_header">INFO KURSUS</string>
+    <string name="about_app_header">INFO APLIKASI</string>
+    <string name="dev_name">Deny Jeremia Siahaan</string>
+    <string name="dev_role">Mahasiswa Ilmu Komputer</string>
+    <string name="course_name">Mobile Programming 2</string>
+    <string name="course_lecturer">Asep Arwan Sulaeman, S.T., M.Kom.</string>
+    <string name="app_version">Versi 1.0.0</string>
+
+    <string name="scan_result_title">Hasil Pindai</string>
+    <string name="btn_copy">Salin</string>
+    <string name="btn_share">Bagikan</string>
+    <string name="btn_open_link">Buka Tautan</string>
+    <string name="btn_scan_again">Pindai Lagi</string>
+
+    <!-- Status Messages -->
+    <string name="msg_scan_cancelled">Pemindaian Dibatalkan</string>
+    <string name="msg_gallery_restricted">Fitur galeri tersedia di versi lengkap</string>
+    <string name="msg_flashlight_hint">Senter dapat dinyalakan saat memindai</string>
+    <string name="msg_copied">Disalin ke papan klip</string>
+    <string name="msg_invalid_url">URL tidak valid</string>
+    <string name="label_share_via">Bagikan melalui</string>
+    <string name="msg_language_updated">Bahasa diperbarui ke: %1$s</string>
+    <string name="msg_theme_light">Mode Terang Diterapkan</string>
+    <string name="msg_theme_dark">Mode Gelap Diterapkan</string>
+</resources>

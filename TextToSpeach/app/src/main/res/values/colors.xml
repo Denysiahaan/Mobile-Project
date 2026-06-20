@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_text">#757575</color>
+
+    <!-- Background Colors Light (Modern & Clean) -->
+    <color name="bg_start">#F5F7FA</color>
+    <color name="bg_end">#B8C6DB</color>
+
+    <!-- Background Colors Dark -->
+    <color name="bg_start_dark">#0F2027</color>
+    <color name="bg_end_dark">#2C5364</color>
+</resources>

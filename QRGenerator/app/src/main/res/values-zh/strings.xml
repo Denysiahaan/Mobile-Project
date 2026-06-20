@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">二维码生成器</string>
+    <string name="settings">设置</string>
+    <string name="save_changes">保存更改</string>
+    <string name="language_updated">语言更新成功</string>
+    <string name="deleted">已删除</string>
+    <string name="share_title">分享二维码内容</string>
+    <string name="close">关闭</string>
+    <string name="current_language_name">中文</string>
+
+    <!-- Navigation -->
+    <string name="nav_generate">生成</string>
+    <string name="nav_saved">已保存</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- Language Screen -->
+    <string name="title_language">语言</string>
+    <string name="pref_language">偏好</string>
+    <string name="desc_language">选择您喜欢的应用语言。</string>
+    <string name="lang_english">英语 (US)</string>
+    <string name="lang_indonesian">印度尼西亚语</string>
+    <string name="lang_arabic">阿拉伯语</string>
+    <string name="lang_chinese">中文</string>
+    <string name="lang_japanese">日语</string>
+    <string name="lang_korean">韩语</string>
+    <string name="lang_french">法语</string>
+    <string name="lang_german">德语</string>
+    <string name="lang_spanish">西班牙语</string>
+
+    <!-- Home Screen -->
+    <string name="slogan">即时创建二维码</string>
+    <string name="type_url">URL</string>
+    <string name="type_text">文本</string>
+    <string name="type_email">电子邮件</string>
+    <string name="type_phone">电话</string>
+    <string name="hint_input">输入文本或 URL</string>
+    <string name="btn_generate">生成二维码</string>
+    <string name="preview_ready">预览就绪</string>
+    <string name="preview_desc">输入详情以查看二维码</string>
+    <string name="error_empty">输入不能为空</string>
+    <string name="qr_generated">二维码已生成</string>
+    <string name="qr_saved">二维码已保存</string>
+    <string name="error_generating">生成二维码时出错</string>
+    <string name="hint_enter">在此输入 %1$s</string>
+
+    <!-- Saved Screen -->
+    <string name="title_saved">已保存的二维码</string>
+    <string name="no_saved_qr">未找到保存的二维码</string>
+    <string name="created_at">创建于 %1$s • %2$s</string>
+    <string name="error_display_qr">显示二维码时出错</string>
+
+    <!-- About Screen -->
+    <string name="about_app">关于应用</string>
+    <string name="version_info">版本 1.0.0</string>
+    <string name="about_developer">关于开发者</string>
+    <string name="course_info">课程信息</string>
+    <string name="app_info">应用信息</string>
+    <string name="dev_name">Deny Jeremia Siahaan</string>
+    <string name="dev_status">计算机科学系学生</string>
+    <string name="course_name">移动编程 2</string>
+    <string name="course_lecturer">Asep Arwan Sulaeman, S.T., M.Kom.</string>
+    <string name="title_description">描述</string>
+    <string name="desc_app">使用 Java、XML、SQLite 和 ZXing 构建的二维码生成器应用程序。此应用程序允许用户立即为 URL、文本、电子邮件和电话号码创建自定义二维码。</string>
+</resources>

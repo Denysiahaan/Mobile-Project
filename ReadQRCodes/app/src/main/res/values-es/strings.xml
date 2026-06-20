@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Read QR Codes</string>
+    <string name="splash_subtitle">Escanea códigos QR al instante</string>
+    <string name="powered_by">CON TECNOLOGÍA DE ZXING</string>
+
+    <string name="home_title">Read QR Codes</string>
+    <string name="home_subtitle">Escanea y decodifica códigos QR rápidamente</string>
+    <string name="home_desc">Usa tu cámara para escanear y leer códigos QR.</string>
+    <string name="btn_scan_qr">Escanear código QR</string>
+    <string name="btn_gallery">Galería</string>
+    <string name="btn_flashlight">Linterna</string>
+
+    <string name="nav_home">Inicio</string>
+    <string name="nav_settings">Ajustes</string>
+
+    <string name="scan_title">Escanear código QR</string>
+    <string name="scan_instruction">Coloca el código QR dentro del marco</string>
+    <string name="scan_sub_instruction">El escaneo comenzará automáticamente</string>
+    <string name="btn_import">Importar</string>
+    <string name="btn_input">Entrada</string>
+
+    <string name="settings_title">Ajustes</string>
+    <string name="menu_language">Idioma</string>
+    <string name="label_current_language">Español</string>
+    <string name="menu_about">Acerca de la aplicación</string>
+
+    <string name="language_title">Seleccionar idioma</string>
+    <string name="btn_save_changes">Guardar cambios</string>
+
+    <!-- Languages -->
+    <string name="lang_en_title">Inglés (Estados Unidos)</string>
+    <string name="lang_en_sub">English (United States)</string>
+    <string name="lang_id_title">Indonesio</string>
+    <string name="lang_id_sub">Bahasa Indonesia</string>
+    <string name="lang_ar_title">Árabe</string>
+    <string name="lang_ar_sub">العربية</string>
+    <string name="lang_zh_title">Chino</string>
+    <string name="lang_zh_sub">中文</string>
+    <string name="lang_es_title">Español</string>
+    <string name="lang_es_sub">Español</string>
+    <string name="lang_fr_title">Francés</string>
+    <string name="lang_fr_sub">Français</string>
+    <string name="lang_de_title">Alemán</string>
+    <string name="lang_de_sub">Deutsch</string>
+    <string name="lang_ja_title">Japonés</string>
+    <string name="lang_ja_sub">日本語</string>
+    <string name="lang_ko_title">Coreano</string>
+    <string name="lang_ko_sub">한국어</string>
+
+    <string name="about_title">Acerca de la aplicación</string>
+    <string name="about_dev_header">SOBRE EL DESARROLLADOR</string>
+    <string name="about_course_header">INFO DEL CURSO</string>
+    <string name="about_app_header">INFO DE LA APP</string>
+    <string name="dev_name">Deny Jeremia Siahaan</string>
+    <string name="dev_role">Estudiante de Ciencias de la Computación</string>
+    <string name="course_name">Programación Móvil 2</string>
+    <string name="course_lecturer">Asep Arwan Sulaeman, S.T., M.Kom.</string>
+    <string name="app_version">Versión 1.0.0</string>
+
+    <string name="scan_result_title">Resultado del escaneo</string>
+    <string name="btn_copy">Copiar</string>
+    <string name="btn_share">Compartir</string>
+    <string name="btn_open_link">Abrir enlace</string>
+    <string name="btn_scan_again">Escanear de nuevo</string>
+
+    <!-- Status Messages -->
+    <string name="msg_scan_cancelled">Escaneo cancelado</string>
+    <string name="msg_gallery_restricted">Función de galería activada en la versión completa</string>
+    <string name="msg_flashlight_hint">La linterna se puede alternar durante el escaneo</string>
+    <string name="msg_copied">Copiado al portapapeles</string>
+    <string name="msg_invalid_url">No es una URL válida</string>
+    <string name="label_share_via">Compartir vía</string>
+    <string name="msg_language_updated">Idioma actualizado a: %1$s</string>
+    <string name="msg_theme_light">Modo claro aplicado</string>
+    <string name="msg_theme_dark">Modo oscuro aplicado</string>
+</resources>

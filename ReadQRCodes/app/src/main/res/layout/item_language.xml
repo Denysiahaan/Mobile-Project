@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:paddingHorizontal="24dp">
+
+    <LinearLayout
+        android:id="@+id/ll_text_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_selected"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_language_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hankengrotesk_bold"
+            android:textColor="#1C1B1F"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:text="English (United States)" />
+
+        <TextView
+            android:id="@+id/tv_language_native"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/hankengrotesk_regular"
+            android:textColor="#757575"
+            android:textSize="14sp"
+            tools:text="English (United States)" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_selected"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_language_selected"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/ll_text_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/ll_text_container"
+        tools:visibility="visible" />
+
+    <View
+        android:id="@+id/v_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F0F0F0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_text_container" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

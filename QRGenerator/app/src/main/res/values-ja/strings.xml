@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">QRジェネレーター</string>
+    <string name="settings">設定</string>
+    <string name="save_changes">変更を保存</string>
+    <string name="language_updated">言語が正常に更新されました</string>
+    <string name="deleted">削除されました</string>
+    <string name="share_title">QRコンテンツを共有</string>
+    <string name="close">閉じる</string>
+    <string name="current_language_name">日本語</string>
+
+    <!-- Navigation -->
+    <string name="nav_generate">作成</string>
+    <string name="nav_saved">保存済み</string>
+    <string name="nav_settings">設定</string>
+
+    <!-- Language Screen -->
+    <string name="title_language">言語</string>
+    <string name="pref_language">設定</string>
+    <string name="desc_language">アプリの優先言語を選択してください。</string>
+    <string name="lang_english">英語 (US)</string>
+    <string name="lang_indonesian">インドネシア語</string>
+    <string name="lang_arabic">アラビア語</string>
+    <string name="lang_chinese">中国語</string>
+    <string name="lang_japanese">日本語</string>
+    <string name="lang_korean">韓国語</string>
+    <string name="lang_french">フランス語</string>
+    <string name="lang_german">ドイツ語</string>
+    <string name="lang_spanish">スペイン語</string>
+
+    <!-- Home Fragment -->
+    <string name="slogan">QRコードを即座に作成</string>
+    <string name="type_url">URL</string>
+    <string name="type_text">テキスト</string>
+    <string name="type_email">メール</string>
+    <string name="type_phone">電話番号</string>
+    <string name="hint_input">テキストまたはURLを入力</string>
+    <string name="btn_generate">QRコードを生成</string>
+    <string name="preview_ready">プレビュー準備完了</string>
+    <string name="preview_desc">詳細を入力してQRコードを表示</string>
+    <string name="error_empty">入力は空にできません</string>
+    <string name="qr_generated">QRコードが生成されました</string>
+    <string name="qr_saved">QRコードが保存されました</string>
+    <string name="error_generating">QRコード生成エラー</string>
+    <string name="hint_enter">ここに %1$s を入力</string>
+
+    <!-- Saved Fragment -->
+    <string name="title_saved">保存済みQRコード</string>
+    <string name="no_saved_qr">保存されたQRコードは見つかりませんでした</string>
+    <string name="created_at">作成日: %1$s • %2$s</string>
+    <string name="error_display_qr">QR表示エラー</string>
+
+    <!-- Settings Screen -->
+    <string name="about_developer">開発者について</string>
+    <string name="course_info">コース情報</string>
+    <string name="app_info">アプリ情報</string>
+    <string name="dev_name">Deny Jeremia Siahaan</string>
+    <string name="dev_status">コンピューターサイエンス学生</string>
+    <string name="course_name">モバイルプログラミング 2</string>
+    <string name="course_lecturer">Asep Arwan Sulaeman, S.T., M.Kom.</string>
+    <string name="about_app">アプリについて</string>
+    <string name="version_info">バージョン 1.0.0</string>
+    <string name="title_about">アプリについて</string>
+    <string name="title_description">説明</string>
+    <string name="desc_app">Java、XML、SQLite、およびZXingを使用して構築されたQRジェネレーター。このアプリを使用すると、URL、テキスト、電子メール、電話番号のカスタムQRコードを即座に作成できます。</string>
+</resources>

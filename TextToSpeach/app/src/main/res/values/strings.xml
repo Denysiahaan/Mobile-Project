@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TextToSpeech</string>
+    <string name="write_text">Write Text</string>
+    <string name="text_to_speech">TextToSpeech</string>
+    <string name="empty_input_warning">Masukkan teks terlebih dahulu</string>
+    <string name="app_logo_description">App Logo</string>
+    <string name="menu_about">About</string>
+    <string name="menu_theme">Ganti Tema</string>
+    <string name="about_title">Tentang Aplikasi</string>
+    <string name="about_message">Nama: Deny Jeremia Siahaan\nAplikasi: TextToSpeech\nKeterangan: Tugas UTS Android</string>
+    <string name="ok">OK</string>
+</resources>

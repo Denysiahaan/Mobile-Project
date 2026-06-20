@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CORE THEME (DARK MODE) -->
+    <color name="primary">#D0BCFF</color>
+    <color name="onPrimary">#381E72</color>
+    <color name="primaryContainer">#4F378B</color>
+    <color name="onPrimaryContainer">#EADDFF</color>
+
+    <!-- Menambahkan secondary agar build sukses -->
+    <color name="secondary">#CCC2DC</color>
+    <color name="onSecondary">#332D41</color>
+    <color name="secondaryContainer">#4A4458</color>
+    <color name="onSecondaryContainer">#E8DEF8</color>
+
+    <color name="background">#1C1B1F</color>
+    <color name="onBackground">#E6E1E5</color>
+    <color name="surface">#1C1B1F</color>
+    <color name="onSurface">#E6E1E5</color>
+    <color name="outline">#938F99</color>
+
+    <!-- ELEMEN UI HOME (Penyempurnaan) -->
+    <color name="white">#2B2930</color> <!-- Latar kartu & search bar agar tidak terlalu putih -->
+    <color name="text_dark">#E6E1E5</color> <!-- Teks utama yang nyaman di mata -->
+    <color name="text_gray">#938F99</color> <!-- Teks sekunder -->
+
+    <!-- KARTU STATISTIK -->
+    <color name="bg_stats_all">#2C2541</color>
+    <color name="bg_stats_done">#1B2E1E</color>
+    <color name="bg_stats_pending">#3E1E1E</color>
+
+    <!-- HEADER & GRADIENT (Lebih redup) -->
+    <color name="grad_all_start">#1A0E46</color>
+    <color name="grad_all_end">#311B92</color>
+
+    <!-- PRIORITAS & STATUS (Warna Pastel untuk Dark Mode) -->
+    <color name="priority_high">#F2B8B5</color>
+    <color name="priority_medium">#FFDC48</color>
+    <color name="priority_low">#B4E09B</color>
+    <color name="success">#81C784</color>
+    <color name="error">#F2B8B5</color>
+
+    <!-- Legacy Compatibility -->
+    <color name="priority_penting">#F2B8B5</color>
+    <color name="priority_sedang">#FFDC48</color>
+    <color name="priority_ringan">#B4E09B</color>
+</resources>

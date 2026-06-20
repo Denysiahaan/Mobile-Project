@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">مولد QR</string>
+    <string name="settings">الإعدادات</string>
+    <string name="save_changes">حفظ التغييرات</string>
+    <string name="language_updated">تم تحديث اللغة بنجاح</string>
+    <string name="deleted">تم الحذف</string>
+    <string name="share_title">مشاركة محتوى QR</string>
+    <string name="close">إغلاق</string>
+    <string name="current_language_name">العربية</string>
+
+    <!-- Navigation -->
+    <string name="nav_generate">إنشاء</string>
+    <string name="nav_saved">محفوظ</string>
+    <string name="nav_settings">إعدادات</string>
+
+    <!-- Language Screen -->
+    <string name="title_language">اللغة</string>
+    <string name="lang_english">الإنجليزية (US)</string>
+    <string name="lang_indonesian">الإندونيسية</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_chinese">الصينية</string>
+    <string name="lang_japanese">اليابانية</string>
+    <string name="lang_korean">الكورية</string>
+    <string name="lang_french">الفرنسية</string>
+    <string name="lang_german">الألمانية</string>
+    <string name="lang_spanish">الإسبانية</string>
+
+    <!-- Home Screen -->
+    <string name="slogan">قم بإنشاء رموز QR فوراً</string>
+    <string name="type_url">رابط</string>
+    <string name="type_text">نص</string>
+    <string name="type_email">بريد</string>
+    <string name="type_phone">هاتف</string>
+    <string name="hint_input">أدخل النص أو الرابط</string>
+    <string name="btn_generate">إنشاء رمز QR</string>
+    <string name="preview_ready">المعاينة جاهزة</string>
+    <string name="preview_desc">أدخل التفاصيل لرؤية رمز QR</string>
+    <string name="qr_generated">تم إنشاء رمز QR</string>
+    <string name="qr_saved">تم حفظ رمز QR</string>
+    <string name="hint_enter">أدخل %1$s هنا</string>
+</resources>

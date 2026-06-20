@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.QRGenerator.Splash" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Latar belakang sistem tetap hitam -->
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+
+        <!-- Sembunyikan ikon bawaan sistem Android 12+ agar tidak tumpang tindih -->
+        <item name="android:windowSplashScreenBackground">@android:color/black</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@android:color/transparent</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>
